@@ -1,0 +1,27 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+
+#navbar h1{
+    font-size: 1.5rem;
+    color: #7703fc;
+}
+
+.newParty{
+    background-color: #7703fc;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.newParty:hover{
+    background-color: #fff;
+    color: #7703fc;
+}

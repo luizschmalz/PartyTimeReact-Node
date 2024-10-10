@@ -1,0 +1,64 @@
+POST http://localhost:3000/api/services
+Content-Type: application/json
+
+{
+    "name": "Decoração",
+    "description": "Escolha a decoração para sua festa, e nós a montamos.",
+    "price": 1400,
+    "image": "https://images.unsplash.com/photo-1478146059778-26028b07395a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=892&q=80"
+}
+
+###
+GET http://localhost:3000/api/services
+
+###
+GET http://localhost:3000/api/services/66ff13c24282b65639bc5af5
+
+###
+DELETE http://localhost:3000/api/services/66ff14b66536b2a14befe653
+
+###
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+  
+{
+  "title" : "evento",
+  "author" : "birizinhoaaaaao",
+  "description" : "sexozinho maroto",
+  "budget" : 1200,
+  "image" : "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "services" : [{
+    "name": "Service Name 2",
+    "description": "Service Description 2",
+    "price": 500,
+    "image": "image-url-or-pathasda"
+  }]
+}
+
+###
+GET http://localhost:3000/api/parties
+
+###
+GET http://localhost:3000/api/parties/6705bd56a7a13e895e87b237
+
+### 
+DELETE http://localhost:3000/api/parties/6705bd56a7a13e895e87b237
+
+
+###
+PUT http://localhost:3000/api/parties/6705c35a947c813dda3b7dae
+Content-Type: application/json
+
+{
+  "title" : "evento",
+  "author" : "birizinhoaaaaao",
+  "description" : "sexozinho maroto",
+  "budget" : 1200,
+  "image" : "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+  "services" : [{
+    "name": "Service Name 2",
+    "description": "Service Description 2",
+    "price": 500,
+    "image": "image-url-or-pathasda"
+  }]
+}

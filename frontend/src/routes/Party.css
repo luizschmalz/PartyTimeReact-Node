@@ -1,0 +1,23 @@
+.partyDetail{
+    width: 80%;
+    background-color: #ccc;
+    margin-left: 10%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.actions-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.servicesContrated{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}

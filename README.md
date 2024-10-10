@@ -1,0 +1,3 @@
+Primeiro projeto full stack que eu fiz, seguindo os projetos do curso formação completa em frontend feito por Matheus Battisti.
+Nesse projeto pude aprender diversos conceitos principalmente de backend, como criação de banco de dados e envio/edição/deletar dados com um banco de dados verdadeiro, nessa aplicação, ultilizei mongoDB. Além disso consegui ter uma visão mais geral de como funcionam aplicações fullstack e entender melhor a comunicação entre front e backend. Também aprendi muito sobre rotas, usando axios, consegui compreender como funcionam as rotas em projetos complexos.
+ 

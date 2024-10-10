@@ -1,0 +1,51 @@
+.home{
+    text-align: center;
+    margin-bottom: 2rem;
+    
+}
+
+.partiescontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem 0;
+    margin-left: 10%;
+}
+
+
+.partiescontainer .party{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 0.3rem;
+    margin-bottom: 2rem;
+    background-color: #ccc;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.partiescontainer .party img{
+    width: 100%;
+}
+
+.detailBtn{
+    background-color: #7703fc;
+    padding: 0.2rem;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    transition: .4s;
+    cursor: pointer;
+    opacity: 0.8;
+    text-align: center;
+    font-size: .9rem;
+    color: #fff;
+}
+
+.detailBtn:hover{
+    opacity: 1;   
+    background-color: #fff;
+    color: #7703fc;
+}
